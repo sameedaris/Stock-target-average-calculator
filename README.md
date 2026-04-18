@@ -8,9 +8,7 @@
 
 [Open Stock Average Calculator](https://sameedaris.github.io/Stock-target-average-calculator/)
 ---
-## 🚀 Live Demo
 
-[![Open Calculator](https://img.shields.io/badge/Live%20Calculator-Click%20Here-blue)](https://sameedaris.github.io/Stock-target-average-calculator/)
 ## 📌 Example Use Case
 
 - You hold 7000 shares at 54.05  
