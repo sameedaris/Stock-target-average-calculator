@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Live Stock Average Calculator</title>
+  <style>
+    body {
+      font-family: Arial;
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 20px;
+      background: #f4f4f4;
+    }
+    input {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      font-size: 16px;
+    }
+    .result {
+      margin-top: 20px;
+      font-size: 18px;
+      background: white;
+      padding: 15px;
+    }
+  </style>
+</head>
+
+<body>
+
+<h2>Live Stock Average Calculator</h2>
+
+<label>Current Shares</label>
+<input id="q1" type="number" value="7000" oninput="calc()">
+
+<label>Current Price</label>
+<input id="p1" type="number" value="54.05" oninput="calc()">
+
+<label>New Shares</label>
+<input id="q2" type="number" value="7000" oninput="calc()">
+
+<label>New Buy Price</label>
+<input id="p2" type="number" value="30" oninput="calc()">
+
+<div class="result" id="result">Result will appear here</div>
+
+<script>
+function calc() {
+    let q1 = parseFloat(document.getElementById("q1").value) || 0;
+    let p1 = parseFloat(document.getElementById("p1").value) || 0;
+    let q2 = parseFloat(document.getElementById("q2").value) || 0;
+    let p2 = parseFloat(document.getElementById("p2").value) || 0;
+
+    let totalShares = q1 + q2;
+
+    if (totalShares === 0) {
+        document.getElementById("result").innerHTML = "Enter valid values";
+        return;
+    }
+
+    let avg = ((q1 * p1) + (q2 * p2)) / totalShares;
+
+    document.getElementById("result").innerHTML =
+        "New Average Price: <b>" + avg.toFixed(2) + "</b>";
+}
+
+// run once on load
+calc();
+</script>
+
+</body>
+</html>
