@@ -5,7 +5,7 @@
 
 ### Option 1 (Local)
 Just open:
-
+https://sameedaris.github.io/Stock-target-average-calculator/
 ```
 index.html
 ```
@@ -14,19 +14,6 @@ in any browser.
 
 ---
 
-### Option 2 (Online Hosting - Free)
-
-You can deploy using:
-
-#### 🔹 GitHub Pages
-1. Go to repo settings  
-2. Enable Pages  
-3. Select `main` branch  
-4. Your app will be live
-
-#### 🔹 Netlify
-- Drag & drop `index.html`
-- Get instant live URL
 
 ---
 
