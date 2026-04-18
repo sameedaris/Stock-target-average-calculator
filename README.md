@@ -14,7 +14,11 @@ in any browser.
 
 ---
 
+## 📊 Live Calculator
 
+👉 Try it here:
+
+[Open Stock Average Calculator](https://sameedaris.github.io/Stock-target-average-calculator/)
 ---
 
 ## 📌 Example Use Case
